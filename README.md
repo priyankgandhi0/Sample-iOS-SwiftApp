@@ -1,7 +1,6 @@
-# Sample iOS-SwiftApp
-Sample iOS Swift App 
+# Sample iOS Swift App
 
-This project is a iOS Swift application that demonstrates how to integrate a single listing API with pagination. It provides a simple UI to display a list of items fetched from the API.
+This project is an iOS Swift application that demonstrates how to integrate a single listing API with pagination. It provides a simple UI to display a list of items fetched from the API.
 
 ## Features
 
@@ -11,23 +10,26 @@ This project is a iOS Swift application that demonstrates how to integrate a sin
 
 ## Requirements
 
-- MacOS
-- Xcode 15.0 or Above Version
-- You choose any simulator on top of Xcode and PRESS CMD + R Run Application
+- macOS
+- Xcode 15.0 or above
+- Any simulator in Xcode
 
 ## Getting Started
 
-1. Clone this repository to your local machine:git clone priyankgandhi0/SampleiOS-SwiftApp
-2. Navigate into the project directory and open SampleiOSSwiftApp.xcodeproj and wait few mintues install Package Dependencies automatically in Xcode Left Side Bar Bottom
-3. Then You can choose any simulator and run the app
+1. Clone this repository to your local machine:
+    ```sh
+    git clone https://github.com/priyankgandhi0/SampleiOS-SwiftApp.git
+    ```
+2. Navigate into the project directory and open `SampleiOSSwiftApp.xcodeproj`. Wait a few minutes for Xcode to automatically install package dependencies (visible in the bottom of the left sidebar).
+3. Choose any simulator and run the app by pressing `CMD + R`.
 
 ## Configuration
 
-- Modify the API endpoint in the source code to point to your desired single listing API.
-- Here Steps Below Change the API endpoint url : 
-  - Steps 1 : Go to Utils folder
-  - Steps 2 : Utils Folder -> AIHeaders Folder
-  - Steps 3 : Go to AIServiceConstants.swift file and change your URL_PRODUCTS_LIST API endpoints
+To modify the API endpoint in the source code:
+
+1. Go to the `Utils` folder.
+2. Navigate to the `AIHeaders` folder within `Utils`.
+3. Open the `AIServiceConstants.swift` file and change the `URL_PRODUCTS_LIST` API endpoint.
 
 ## Usage
 
